@@ -133,9 +133,9 @@ function upperFirst(frase) {
     console.log(parole);
 
     return frase
-} */
+} 
 
-upperFirst("stringa formata da diverse parole")
+upperFirst("stringa formata da diverse parole") */
 
 /* ESERCIZIO 9
  Scrivi una funzione di nome "cutString", che riceve come parametro una stringa. La funzione deve creare una nuova stringa senza il primo e l'ultimo carattere
