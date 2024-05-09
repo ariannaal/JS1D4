@@ -96,10 +96,10 @@ function check3and7(numeroPos) {
     const multiplo3 = numeroPos % 3;
     const multiplo7 = numeroPos % 7;
 
-    if (multiplo3 == 0)
+    if (multiplo3 === 0)
         console.log("Il numero '" + numeroPos + "' è multiplo di 3");
     
-    if (multiplo7 == 0)
+    if (multiplo7 === 0)
         console.log("Il numero '" + numeroPos + "' è multiplo di 7");
         
 }
@@ -111,14 +111,31 @@ check3and7(21)
  Scrivi una funzione di nome "reverseString", il cui scopo è invertire una stringa fornita come parametro (es. "EPICODE" --> "EDOCIPE")
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+function reverseString(string) {
+    const splitString = string.split("");
+    const reverseArray = splitString.reverse();
+    const joinString = reverseArray.join("");
+    console.log(joinString);
+    return joinString;
+}
+
+reverseString("EPICODE")
+
 
 /* ESERCIZIO 8
  Scrivi una funzione di nome "upperFirst", che riceve come parametro una stringa formata da diverse parole.
  La funzione deve rendere maiuscola la prima lettera di ogni parola contenuta nella stringa.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/*
+function upperFirst(frase) {
+    const parole = frase.split(" ");
+    console.log(parole);
+
+    return frase
+} */
+
+upperFirst("stringa formata da diverse parole")
 
 /* ESERCIZIO 9
  Scrivi una funzione di nome "cutString", che riceve come parametro una stringa. La funzione deve creare una nuova stringa senza il primo e l'ultimo carattere
