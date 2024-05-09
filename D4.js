@@ -142,7 +142,13 @@ upperFirst("stringa formata da diverse parole") */
  della stringa originale.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+function cutString(stringa) {
+    const tring = stringa.slice(1,6)
+    console.log(tring)
+    return stringa.slice
+}
+
+cutString("stringa")
 
 /* ESERCIZIO 10
  Scrivi una funzione di nome "giveMeRandom", che accetta come parametro un numero n e ritorna un'array contenente n numeri casuali inclusi tra 0 e 10.
