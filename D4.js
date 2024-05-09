@@ -154,4 +154,13 @@ cutString("stringa")
  Scrivi una funzione di nome "giveMeRandom", che accetta come parametro un numero n e ritorna un'array contenente n numeri casuali inclusi tra 0 e 10.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+function giveMeRandom(n) {
+    const numeriRandom = []
+    for (let index = 0; index < n; index++) {
+        numeriRandom.push(Math.floor(Math.random() * 11))
+        console.log(numeriRandom)
+    }
+    return numeriRandom
+}
+
+giveMeRandom(5)
